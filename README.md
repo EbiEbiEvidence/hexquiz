@@ -1,6 +1,6 @@
 # hexquiz-autoplay
 Play [hexquiz](https://lukerissacher.com/hexquiz) automatically with Selenium + Headless Chrome
-![](https://i.imgur.com/ZpCZS84.png)
+![](https://i.imgur.com/mOFpDZS.png)
 
 # Getting Started
 Use Python 3.7.x
