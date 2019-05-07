@@ -1,5 +1,5 @@
 # hexquiz-autoplay
-Play hexquiz automatically with Selenium + Headless Chrome
+Play [hexquiz](https://lukerissacher.com/hexquiz) automatically with Selenium + Headless Chrome
 ![](https://i.imgur.com/ZpCZS84.png)
 
 # Getting Started
