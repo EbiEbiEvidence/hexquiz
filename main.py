@@ -2,7 +2,6 @@ import sys
 import os
 import chromedriver_binary
 from pathlib import Path
-from time import sleep
 from selenium.common.exceptions import NoAlertPresentException
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
@@ -25,9 +24,8 @@ def main():
 
         driver.find_element_by_id("Answer").send_keys(as_binary)
         driver.find_element_by_id("Submit").click()
-
-        sleep(1)
-        driver.save_screenshot("progress.png")
+        if score % 100 == 0:
+            driver.save_screenshot("progress.png")
         driver.find_element_by_id("Submit").click()
 
         score += 1
